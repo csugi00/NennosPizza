@@ -23,10 +23,10 @@ allure serve output
 
 ## Used Stacks
 
-[CodeceptJS](https://codecept.io/)- CodeceptJS with webdriverio and Gherkin
-[Appium](https://appium.io/)- Appium automation framework
-[Android Studio](https://developer.android.com/studio)- Android Studio for Emulator
-[CodeceptJS Allure plugin](https://codecept.io/plugins/#allure)- Allure reporting
+* [CodeceptJS](https://codecept.io/)- CodeceptJS with webdriverio and Gherkin
+* [Appium](https://appium.io/)- Appium automation framework
+* [Android Studio](https://developer.android.com/studio)- Android Studio for Emulator
+* [CodeceptJS Allure plugin](https://codecept.io/plugins/#allure)- Allure reporting
 
 ## Author
 
