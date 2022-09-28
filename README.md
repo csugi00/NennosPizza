@@ -8,15 +8,24 @@ Reports are also generated for Allure.
 To run locally, just need an Appium server and an Android emulator or real device.
 For these tests, i used Android Studio's emulator.
 
-- First, just get the repo, install the packages needed (run npm install).
-- Start the Appium server and the emulator.
-- Then run the tests simply with the following commands:
+Prerequisites:
+* NodeJS
+* Allure - `npm install -g allure-commandline --save-dev`
+* Appium server
+* Android Studio for emulating a device
+
+- First, get the repo, install the needed packages `npm install`.
+- Start the Appium server and the android emulator.
+- Then run the tests locally simply with the following commands:
+
 ```js
 npx codeceptjs run
 ```
+
 If you need more detailed console report, use `--steps` or for more detailed, use `--verbose` or `--debug`
 
 After the test run finished, to see the generated reports in browser, use this command in the root of the project:
+
 ```
 allure serve output
 ```
