@@ -14,6 +14,8 @@ Prerequisites:
 * Appium server
 * Android Studio for emulating a device
 
+To Run:
+
 - First, get the repo, install the needed packages `npm install`.
 - Start the Appium server and the android emulator.
 - Then run the tests locally simply with the following commands:
