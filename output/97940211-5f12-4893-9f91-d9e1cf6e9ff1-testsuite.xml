@@ -1,0 +1,342 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664359715454' stop='1664359741470'>
+    <name>Nennos pizza - Predefined pizza ordering</name>
+    <title>Nennos pizza - Predefined pizza ordering</title>
+    <test-cases>
+        <test-case start='1664359715455' status='passed' stop='1664359741269'>
+            <name>Ordering a predefined pizza from main page</name>
+            <title>Ordering a predefined pizza from main page</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1664359720882' status='passed' stop='1664359723157'>
+                    <name>Given I am on the main page in Nenno's pizza application </name>
+                    <title>Given I am on the main page in Nenno's pizza application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359720882' status='passed' stop='1664359723157'>
+                            <name>I see "Nenno's Pizza", "~page_title"</name>
+                            <title>I see "Nenno's Pizza", "~page_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359723157' status='passed' stop='1664359724048'>
+                    <name>And I can see the Nenno pizza title </name>
+                    <title>And I can see the Nenno pizza title </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359723157' status='passed' stop='1664359724048'>
+                            <name>I see "Nenno's Pizza", "~page_title"</name>
+                            <title>I see "Nenno's Pizza", "~page_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359724048' status='passed' stop='1664359724966'>
+                    <name>And I see ricci pizza title </name>
+                    <title>And I see ricci pizza title </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359724048' status='passed' stop='1664359724966'>
+                            <name>I see element "~ricci_pizza_title"</name>
+                            <title>I see element "~ricci_pizza_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359724966' status='passed' stop='1664359725862'>
+                    <name>And I see ricci pizza contents </name>
+                    <title>And I see ricci pizza contents </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359724966' status='passed' stop='1664359725862'>
+                            <name>I see element "~ricci_pizza_contents"</name>
+                            <title>I see element "~ricci_pizza_contents"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359725862' status='passed' stop='1664359726775'>
+                    <name>And I see ricci pizza price </name>
+                    <title>And I see ricci pizza price </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359725862' status='passed' stop='1664359726770'>
+                            <name>I see element "~ricci_pizza_price"</name>
+                            <title>I see element "~ricci_pizza_price"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359726775' status='passed' stop='1664359728854'>
+                    <name>When I select the ricci pizza </name>
+                    <title>When I select the ricci pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359726775' status='passed' stop='1664359727725'>
+                            <name>I wait for element "~ricci_pizza_details_btn", 5</name>
+                            <title>I wait for element "~ricci_pizza_details_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359727725' status='passed' stop='1664359728854'>
+                            <name>I tap "~ricci_pizza_details_btn"</name>
+                            <title>I tap "~ricci_pizza_details_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359728854' status='passed' stop='1664359730050'>
+                    <name>Then I can see the name of selected pizza </name>
+                    <title>Then I can see the name of selected pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359728854' status='passed' stop='1664359729522'>
+                            <name>I wait for element "~page_title", 5</name>
+                            <title>I wait for element "~page_title", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359729522' status='passed' stop='1664359730049'>
+                            <name>I see "Ricci", "~page_title"</name>
+                            <title>I see "Ricci", "~page_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359730050' status='passed' stop='1664359730626'>
+                    <name>And I can see the picture of selected pizza </name>
+                    <title>And I can see the picture of selected pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359730050' status='passed' stop='1664359730626'>
+                            <name>I see element "~pizza_image"</name>
+                            <title>I see element "~pizza_image"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359730626' status='passed' stop='1664359731287'>
+                    <name>And I can see the ingredients title </name>
+                    <title>And I can see the ingredients title </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359730626' status='passed' stop='1664359731287'>
+                            <name>I see "Ingredients", "#com.docler.nennospizza:id/title"</name>
+                            <title>I see "Ingredients", "#com.docler.nennospizza:id/title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359731287' status='passed' stop='1664359732334'>
+                    <name>And I can see mozzarella is checked in the list </name>
+                    <title>And I can see mozzarella is checked in the list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359731287' status='passed' stop='1664359731814'>
+                            <name>I see element "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.CheckBox"</name>
+                            <title>I see element "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.CheckBox"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359731815' status='passed' stop='1664359732333'>
+                            <name>I grab attribute from "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.CheckBox", "checked"</name>
+                            <title>I grab attribute from "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.CheckBox", "checked"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359732334' status='passed' stop='1664359732334'>
+                            <name>I see mozzarella is checked</name>
+                            <title>I see mozzarella is checked</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359732334' status='passed' stop='1664359732885'>
+                    <name>And I can see Ricci is checked in the list </name>
+                    <title>And I can see Ricci is checked in the list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359732334' status='passed' stop='1664359732879'>
+                            <name>I grab attribute from "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.widget.CheckBox", "checked"</name>
+                            <title>I grab attribute from "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.widget.CheckBox", "checked"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359732880' status='passed' stop='1664359732880'>
+                            <name>I see ricci is checked</name>
+                            <title>I see ricci is checked</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359732885' status='passed' stop='1664359734343'>
+                    <name>When I add the pizza to the cart </name>
+                    <title>When I add the pizza to the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359732885' status='passed' stop='1664359733677'>
+                            <name>I wait for element "~add_to_cart_btn", 5</name>
+                            <title>I wait for element "~add_to_cart_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359733677' status='passed' stop='1664359734343'>
+                            <name>I tap "~add_to_cart_btn"</name>
+                            <title>I tap "~add_to_cart_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359734343' status='passed' stop='1664359735698'>
+                    <name>And I navigate back to the main page </name>
+                    <title>And I navigate back to the main page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359734343' status='passed' stop='1664359734983'>
+                            <name>I wait for element "~back_btn", 5</name>
+                            <title>I wait for element "~back_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359734983' status='passed' stop='1664359735697'>
+                            <name>I tap "~back_btn"</name>
+                            <title>I tap "~back_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359735698' status='passed' stop='1664359737548'>
+                    <name>Then I check if the "1" is appeared </name>
+                    <title>Then I check if the "1" is appeared </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359735698' status='passed' stop='1664359736633'>
+                            <name>I wait for element "~cart_content_number", 5</name>
+                            <title>I wait for element "~cart_content_number", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359736633' status='passed' stop='1664359737548'>
+                            <name>I see "1", "~cart_content_number"</name>
+                            <title>I see "1", "~cart_content_number"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359737548' status='passed' stop='1664359739558'>
+                    <name>When I open the chart </name>
+                    <title>When I open the chart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359737548' status='passed' stop='1664359738447'>
+                            <name>I wait for element "~cart_icon", 5</name>
+                            <title>I wait for element "~cart_icon", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359738447' status='passed' stop='1664359739558'>
+                            <name>I tap "~cart_icon"</name>
+                            <title>I tap "~cart_icon"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359739558' status='passed' stop='1664359739827'>
+                    <name>Then I can see the selected pizza </name>
+                    <title>Then I can see the selected pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359739558' status='passed' stop='1664359739827'>
+                            <name>I see "Ricci", "~cart_item_1_title"</name>
+                            <title>I see "Ricci", "~cart_item_1_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359739827' status='passed' stop='1664359739971'>
+                    <name>And I can see the selected pizza price </name>
+                    <title>And I can see the selected pizza price </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359739827' status='passed' stop='1664359739971'>
+                            <name>I see element "~cart_item_1_price"</name>
+                            <title>I see element "~cart_item_1_price"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359739971' status='passed' stop='1664359740409'>
+                    <name>When I delete the pizza from cart </name>
+                    <title>When I delete the pizza from cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359739971' status='passed' stop='1664359740114'>
+                            <name>I wait for element "~cart_item_1_delete_btn", 5</name>
+                            <title>I wait for element "~cart_item_1_delete_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359740114' status='passed' stop='1664359740409'>
+                            <name>I tap "~cart_item_1_delete_btn"</name>
+                            <title>I tap "~cart_item_1_delete_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359740409' status='passed' stop='1664359740814'>
+                    <name>Then I check if its disappeared </name>
+                    <title>Then I check if its disappeared </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359740409' status='passed' stop='1664359740814'>
+                            <name>I dont see element "~cart_item_1_title"</name>
+                            <title>I dont see element "~cart_item_1_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359740814' status='passed' stop='1664359741269'>
+                    <name>And I navigate back to the main page </name>
+                    <title>And I navigate back to the main page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359740814' status='passed' stop='1664359740950'>
+                            <name>I wait for element "~back_btn", 5</name>
+                            <title>I wait for element "~back_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359740950' status='passed' stop='1664359741255'>
+                            <name>I tap "~back_btn"</name>
+                            <title>I tap "~back_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,195 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664359676988' stop='1664359700051'>
+    <name>Nennos pizza - Custom pizza ordering</name>
+    <title>Nennos pizza - Custom pizza ordering</title>
+    <test-cases>
+        <test-case start='1664359676989' status='passed' stop='1664359699844'>
+            <name>Ordering a custom pizza</name>
+            <title>Ordering a custom pizza</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1664359682463' status='passed' stop='1664359684943'>
+                    <name>Given I am on the main page in Nenno's pizza application </name>
+                    <title>Given I am on the main page in Nenno's pizza application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359682463' status='passed' stop='1664359684943'>
+                            <name>I see "Nenno's Pizza", "~page_title"</name>
+                            <title>I see "Nenno's Pizza", "~page_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359684943' status='passed' stop='1664359685849'>
+                    <name>And I can see the "+" button on the main page </name>
+                    <title>And I can see the "+" button on the main page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359684943' status='passed' stop='1664359685845'>
+                            <name>I see element "~add_custom_pizza_btn"</name>
+                            <title>I see element "~add_custom_pizza_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359685849' status='passed' stop='1664359687559'>
+                    <name>When I click on the "+" button </name>
+                    <title>When I click on the "+" button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359685849' status='passed' stop='1664359687559'>
+                            <name>I tap "~add_custom_pizza_btn"</name>
+                            <title>I tap "~add_custom_pizza_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359687559' status='passed' stop='1664359688275'>
+                    <name>And I add Salami to the pizza </name>
+                    <title>And I add Salami to the pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359687559' status='passed' stop='1664359688275'>
+                            <name>I tap "Salami"</name>
+                            <title>I tap "Salami"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359688275' status='passed' stop='1664359689108'>
+                    <name>And I add Mushrooms to the pizza </name>
+                    <title>And I add Mushrooms to the pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359688275' status='passed' stop='1664359689108'>
+                            <name>I tap "Mushrooms"</name>
+                            <title>I tap "Mushrooms"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359689108' status='passed' stop='1664359689893'>
+                    <name>And I add Ricci to the pizza </name>
+                    <title>And I add Ricci to the pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359689108' status='passed' stop='1664359689893'>
+                            <name>I tap "Ricci"</name>
+                            <title>I tap "Ricci"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359689893' status='passed' stop='1664359690686'>
+                    <name>Then I check if I see the price of the custom pizza </name>
+                    <title>Then I check if I see the price of the custom pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359689893' status='passed' stop='1664359690686'>
+                            <name>I see "($11.5)", "#com.docler.nennospizza:id/suffix"</name>
+                            <title>I see "($11.5)", "#com.docler.nennospizza:id/suffix"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359690686' status='passed' stop='1664359692718'>
+                    <name>When I add this pizza to the cart </name>
+                    <title>When I add this pizza to the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359690686' status='passed' stop='1664359691961'>
+                            <name>I tap "~add_to_cart_btn"</name>
+                            <title>I tap "~add_to_cart_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359691961' status='passed' stop='1664359692718'>
+                            <name>I tap "~back_btn"</name>
+                            <title>I tap "~back_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359692718' status='passed' stop='1664359695844'>
+                    <name>And I check out the pizza </name>
+                    <title>And I check out the pizza </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359692718' status='passed' stop='1664359694136'>
+                            <name>I wait for element "~cart_icon", 5</name>
+                            <title>I wait for element "~cart_icon", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359694137' status='passed' stop='1664359695237'>
+                            <name>I tap "~cart_icon"</name>
+                            <title>I tap "~cart_icon"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359695238' status='passed' stop='1664359695523'>
+                            <name>I wait for element "~checkout_btn", 5</name>
+                            <title>I wait for element "~checkout_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359695523' status='passed' stop='1664359695844'>
+                            <name>I tap "~checkout_btn"</name>
+                            <title>I tap "~checkout_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359695844' status='passed' stop='1664359697579'>
+                    <name>Then I check if i see the "Tank you for your order" message </name>
+                    <title>Then I check if i see the "Tank you for your order" message </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359695844' status='passed' stop='1664359697427'>
+                            <name>I wait for element "~thank_you_text", 5</name>
+                            <title>I wait for element "~thank_you_text", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359697427' status='passed' stop='1664359697579'>
+                            <name>I see "Thank you for your order", "~thank_you_text"</name>
+                            <title>I see "Thank you for your order", "~thank_you_text"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359697579' status='passed' stop='1664359699844'>
+                    <name>And I navigate back to the home page </name>
+                    <title>And I navigate back to the home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359697579' status='passed' stop='1664359697716'>
+                            <name>I wait for element "~back_to_home_btn"</name>
+                            <title>I wait for element "~back_to_home_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359697716' status='passed' stop='1664359699837'>
+                            <name>I tap "~back_to_home_btn"</name>
+                            <title>I tap "~back_to_home_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

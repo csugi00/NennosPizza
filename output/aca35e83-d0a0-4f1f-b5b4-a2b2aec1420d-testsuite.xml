@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664359700057' stop='1664359715450'>
+    <name>Nennos pizza - Drink ordering</name>
+    <title>Nennos pizza - Drink ordering</title>
+    <test-cases>
+        <test-case start='1664359700059' status='passed' stop='1664359715234'>
+            <name>Ordering a drink</name>
+            <title>Ordering a drink</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1664359705451' status='passed' stop='1664359709694'>
+                    <name>Given I am in the shopping cart in Nenno's pizza application </name>
+                    <title>Given I am in the shopping cart in Nenno's pizza application </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359705451' status='passed' stop='1664359707723'>
+                            <name>I see "Nenno's Pizza", "~page_title"</name>
+                            <title>I see "Nenno's Pizza", "~page_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359707723' status='passed' stop='1664359708615'>
+                            <name>I wait for element "~cart_icon", 5</name>
+                            <title>I wait for element "~cart_icon", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359708615' status='passed' stop='1664359709694'>
+                            <name>I tap "~cart_icon"</name>
+                            <title>I tap "~cart_icon"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359709694' status='passed' stop='1664359710611'>
+                    <name>And I opened the drinks menu </name>
+                    <title>And I opened the drinks menu </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359709694' status='passed' stop='1664359710007'>
+                            <name>I wait for element "~Drinks"</name>
+                            <title>I wait for element "~Drinks"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359710007' status='passed' stop='1664359710149'>
+                            <name>I see element "~Drinks"</name>
+                            <title>I see element "~Drinks"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359710149' status='passed' stop='1664359710287'>
+                            <name>I wait for element "~Drinks"</name>
+                            <title>I wait for element "~Drinks"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359710287' status='passed' stop='1664359710606'>
+                            <name>I tap "~Drinks"</name>
+                            <title>I tap "~Drinks"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359710611' status='passed' stop='1664359711974'>
+                    <name>When I add a beer </name>
+                    <title>When I add a beer </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359710611' status='passed' stop='1664359711674'>
+                            <name>I wait for element "~add_beer_btn", 5</name>
+                            <title>I wait for element "~add_beer_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359711674' status='passed' stop='1664359711974'>
+                            <name>I tap "~add_beer_btn"</name>
+                            <title>I tap "~add_beer_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359711974' status='passed' stop='1664359712685'>
+                    <name>And I go back to the cart </name>
+                    <title>And I go back to the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359711974' status='passed' stop='1664359712377'>
+                            <name>I wait for element "~back_btn", 5</name>
+                            <title>I wait for element "~back_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359712377' status='passed' stop='1664359712685'>
+                            <name>I tap "~back_btn"</name>
+                            <title>I tap "~back_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359712685' status='passed' stop='1664359713949'>
+                    <name>Then I check if i see the beer in the cart </name>
+                    <title>Then I check if i see the beer in the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359712685' status='passed' stop='1664359713080'>
+                            <name>I wait for element "~cart_item_1_title"</name>
+                            <title>I wait for element "~cart_item_1_title"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359713080' status='passed' stop='1664359713949'>
+                            <name>I see "Beer"</name>
+                            <title>I see "Beer"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359713949' status='passed' stop='1664359714767'>
+                    <name>And I delete the beer </name>
+                    <title>And I delete the beer </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359713949' status='passed' stop='1664359714091'>
+                            <name>I wait for element "~cart_item_1_delete_btn", 5</name>
+                            <title>I wait for element "~cart_item_1_delete_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359714091' status='passed' stop='1664359714767'>
+                            <name>I tap "~cart_item_1_delete_btn"</name>
+                            <title>I tap "~cart_item_1_delete_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664359714767' status='passed' stop='1664359715234'>
+                    <name>And I navigate back to the main page </name>
+                    <title>And I navigate back to the main page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664359714767' status='passed' stop='1664359714912'>
+                            <name>I wait for element "~back_btn", 5</name>
+                            <title>I wait for element "~back_btn", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1664359714912' status='passed' stop='1664359715229'>
+                            <name>I tap "~back_btn"</name>
+                            <title>I tap "~back_btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
